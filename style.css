@@ -52,6 +52,12 @@ nav a {
 logo-aria
  ------------ */
  img {
-   margin-left: 50px;
+   margin-left: 40px;
 
+ }
+ /* ------------
+ 3rd section 
+ -------------- */
+ #new-section{
+    text-align: center;
  }
