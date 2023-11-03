@@ -1,6 +1,22 @@
+/* --------------
+utility aria 
+------------ */
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* ---------------
+flexible aria 
+------------ */
+.flexible-aria{
+    display: flex;
+}
+.navigation-bar{
+    display: flex;
+
+}
+/* ----------
+button aria
+ ----------- */
 .convens{
     margin-left: 40px;
 }
@@ -12,3 +28,30 @@ body{
     padding: 10px 15px;
 
 }
+/* ---------
+product aria
+ bullet ;point Removed aria 
+ --------- */
+.product-site{
+    
+}
+/* ul li{
+    list-style-type:none;
+    text-decoration: none;
+} */
+nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    margin-right:10px;
+}
+/* ---------
+logo-aria
+ ------------ */
+ img {
+   margin-left: 50px;
+
+ }
