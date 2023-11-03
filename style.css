@@ -61,3 +61,37 @@ logo-aria
  #new-section{
     text-align: center;
  }
+ /*-------
+  new bloog stylesheet
+ --------  */
+ .blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-row-gap:25px; */
+ }
+ /* footer work on going then  pending */
+.footer-site{
+    text-decoration: none;
+    justify-content:initial;
+    color:red
+}
+
+.sec-4th{
+display: flex;
+margin-right: 25px;
+}
+ #footer-top{
+color:rgb(96, 170, 100)
+ }
+ @media screen and(max-width: 992px) {
+     .blogs{
+        grid-template-columns: repeat(2,1fr);
+     }
+     
+    }
+    @media screen and(max-width: 768px) {
+     .blogs{
+        grid-template-columns: repeat(1,1fr);
+     }
+    
+ }
