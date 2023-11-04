@@ -3,6 +3,7 @@ utility aria
 ------------ */
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 /* ---------------
 flexible aria 
@@ -51,7 +52,7 @@ nav a {
 /* ---------
 logo-aria
  ------------ */
- img {
+ .logo img {
    margin-left: 40px;
 
  }
@@ -67,7 +68,11 @@ logo-aria
  .blogs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* grid-row-gap:25px; */
+    /* grid-row-gap:10px; */
+    /* padding: 10px; */
+ }
+ .blog{
+    /* padding-left:40px; */
  }
  /* footer work on going then  pending */
 .footer-site{
@@ -77,12 +82,22 @@ logo-aria
 }
 
 .sec-4th{
-display: flex;
-margin-right: 25px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+/* margin-right: 25px; */
+padding: 30px;
 }
  #footer-top{
-color:rgb(96, 170, 100)
+color:rgb(96, 170, 100);
+justify-content:space-between;
  }
+
+
+
+/* ----------
+media quary section
+---------*/
+
  @media screen and(max-width: 992px) {
      .blogs{
         grid-template-columns: repeat(2,1fr);
