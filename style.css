@@ -70,6 +70,7 @@ logo-aria
     grid-template-columns: repeat(3,1fr);
     /* grid-row-gap:10px; */
     /* padding: 10px; */
+    margin-left: 40px;
  }
  .blog{
     /* padding-left:40px; */
@@ -92,15 +93,30 @@ color:rgb(96, 170, 100);
 justify-content:space-between;
  }
 
+.arrow-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px;
+    font-size: 10px;
+    color:white;
+}
 
+.sec-5th{
+    text-align: center;
+    background-color: rgb(10,8,38);
+    padding: 50px;
+    color: white;
+}
 
 /* ----------
 media quary section
 ---------*/
-
- @media screen and(max-width: 992px) {
-     .blogs{
-        grid-template-columns: repeat(2,1fr);
+/* ------------
+for mobile phone
+ ------------ */
+ @media screen and(max-width: 576px) {
+     .flexible-aria{
+        grid-template-columns: repeat(1,1fr);
      }
      
     }
